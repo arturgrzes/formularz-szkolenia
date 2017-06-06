@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+</head>
+
+<body>
+
+    <h2>Formularz zapisu na szkolenie</h2>
+
+
+    <form action="https://formspree.io/grzesa@poczta.onet.pl" method="post">
+
+
+        <label for="imie">Imię</label><br/>
+        <input type="text" name="imie" id="imie"><br/>
+        <label for="nazwisko">Nazwisko</label><br/>
+        <input type="text" name="nazwisko" id="nazwisko"><br/>
+        <label for="email">Email</label><br/>
+        <input type="text" name="email" id="email"><br/>
+        <label for="telefon">Numer telefonu</label><br/>
+        <input type="text" name="telefon" id="telefon"><br/>
+        <label for="select">Wybór miasta</label><br/>
+        <select name="select">
+	       <option value="value1">Kraków</option>
+	       <option value="value2">Warszawa</option>
+	       <option value="value3">Gdańsk</option>
+	      </select><br/>
+        <br/>
+        <label for="radio">Podaj swoją płeć</label><br/>
+        <input type="radio" name="Płeć" value="Kobieta" checked> Kobieta <br/>
+        <input type="radio" name="Płeć" value="Mężczyzna"> Mężczyzna <br/>
+        <br/>
+        <label for="checkbox">Zgoda na dane osobowe</label>
+        <input type="checkbox" name="Zgoda" value="Zgoda" checked> <br/>
+        <br/>
+        <label for="wiadomosc">Wiadomość</label><br/>
+        <textarea name="wiadomosc" id="wiadomosc"></textarea><br/>
+        <input type="submit" value="Wyślij">
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+</body>
+
+
+</html>
